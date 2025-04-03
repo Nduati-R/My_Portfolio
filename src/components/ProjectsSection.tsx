@@ -6,35 +6,35 @@ const ProjectsSection = () => {
   // Projects data
   const projects = [
     {
-      title: "E-commerce UI Redesign",
-      description: "A complete UI/UX overhaul for an e-commerce platform, focusing on improved user flow and conversion optimization.",
-      technologies: ["Figma", "React", "CSS"],
-      link: "#",
-      repo: "#",
+      title: "Collective Savings",
+      description: "A platform for group savings and financial collaboration, helping communities manage shared finances effectively.",
+      technologies: ["React", "Django", "MySQL"],
+      link: "https://github.com/Nduati-R/collective-savings",
+      repo: "https://github.com/Nduati-R/collective-savings",
       imageType: "ecommerce",
     },
     {
-      title: "Task Management App",
-      description: "Full-stack task management application with real-time updates and team collaboration features.",
-      technologies: ["React", "Django", "MySQL"],
-      link: "#",
-      repo: "#",
-      imageType: "task",
-    },
-    {
-      title: "Portfolio Website",
-      description: "Personal portfolio website showcasing UI/UX and development skills with a focus on modern design principles.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      link: "#",
-      repo: "#",
+      title: "Movie Tracker App",
+      description: "A React application for tracking and discovering movies, with features for saving favorites and getting recommendations.",
+      technologies: ["React", "JavaScript", "API Integration"],
+      link: "https://github.com/Nduati-R/React_MovieT",
+      repo: "https://github.com/Nduati-R/React_MovieT",
       imageType: "portfolio",
     },
     {
-      title: "Healthcare Dashboard",
-      description: "Interactive dashboard for healthcare providers to monitor patient data and treatment progress.",
+      title: "YBP Empowerment Hub",
+      description: "A digital platform for youth empowerment initiatives, providing resources and community connections.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      link: "https://github.com/Nduati-R/ybp-empowerment-hub",
+      repo: "https://github.com/Nduati-R/ybp-empowerment-hub",
+      imageType: "task",
+    },
+    {
+      title: "IPSTC Registration Form",
+      description: "A registration system for event participation, streamlining the sign-up process for institutional events.",
       technologies: ["React", "Laravel", "MySQL"],
-      link: "#",
-      repo: "#",
+      link: "https://github.com/Nduati-R/IPSTC-participation-registrationform",
+      repo: "https://github.com/Nduati-R/IPSTC-participation-registrationform",
       imageType: "dashboard",
     },
   ];
@@ -95,6 +95,8 @@ const ProjectsSection = () => {
                   href={project.repo}
                   className="text-portfolio-gray hover:text-portfolio-green transition-colors"
                   aria-label="View Github repository"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Github size={18} />
                 </a>
@@ -102,6 +104,8 @@ const ProjectsSection = () => {
                   href={project.link}
                   className="text-portfolio-gray hover:text-portfolio-green transition-colors"
                   aria-label="Visit live project"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <ExternalLink size={18} />
                 </a>

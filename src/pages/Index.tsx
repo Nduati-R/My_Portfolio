@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-portfolio-black">
       <Header />
-      <HeroSection />
+      <HeroSection name="Ryan Njoroge Nduati" />
       <AboutSection />
       <SkillsSection />
       <EducationSection />

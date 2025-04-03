@@ -2,7 +2,11 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const HeroSection = () => {
+interface HeroSectionProps {
+  name?: string;
+}
+
+const HeroSection = ({ name = "Ryan Njoroge Nduati" }: HeroSectionProps) => {
   return (
     <section
       id="home"
@@ -15,7 +19,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="animate-fade-in">
           <h2 className="text-portfolio-green text-xl md:text-2xl font-medium mb-4">
-            Hello, I'm a
+            Hello, I'm {name}
           </h2>
           <h1 className="text-4xl md:text-7xl font-bold mb-6">
             UX/UI Designer &<br />
