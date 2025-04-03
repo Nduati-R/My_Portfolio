@@ -22,22 +22,6 @@ const ProjectsSection = () => {
       imageType: "portfolio",
     },
     {
-      title: "YBP Empowerment Hub",
-      description: "A digital platform for youth empowerment initiatives, providing resources and community connections.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      link: "https://github.com/Nduati-R/ybp-empowerment-hub",
-      repo: "https://github.com/Nduati-R/ybp-empowerment-hub",
-      imageType: "task",
-    },
-    {
-      title: "IPSTC Registration Form",
-      description: "A registration system for event participation, streamlining the sign-up process for institutional events.",
-      technologies: ["React", "Laravel", "MySQL"],
-      link: "https://github.com/Nduati-R/IPSTC-participation-registrationform",
-      repo: "https://github.com/Nduati-R/IPSTC-participation-registrationform",
-      imageType: "dashboard",
-    },
-    {
       title: "AI News Aggregator",
       description: "An intelligent news aggregation platform that collects and categorizes news from various sources using AI algorithms.",
       technologies: ["Python", "React", "AI/ML"],

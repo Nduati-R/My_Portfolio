@@ -67,10 +67,10 @@ const ContactSection = () => {
                   <div>
                     <p className="text-portfolio-lightGray font-medium">Email</p>
                     <a
-                      href="mailto:your.email@example.com"
+                      href="mailto:ryannduati8@gmail.com"
                       className="text-portfolio-gray hover:text-portfolio-green transition-colors"
                     >
-                      your.email@example.com
+                      ryannduati8@gmail.com
                     </a>
                   </div>
                 </div>
@@ -82,10 +82,10 @@ const ContactSection = () => {
                   <div>
                     <p className="text-portfolio-lightGray font-medium">Phone</p>
                     <a
-                      href="tel:+1234567890"
+                      href="tel:+254759249670"
                       className="text-portfolio-gray hover:text-portfolio-green transition-colors"
                     >
-                      +1 (234) 567-890
+                      +254 759 249 670
                     </a>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ const ContactSection = () => {
                       Location
                     </p>
                     <p className="text-portfolio-gray">
-                      San Francisco, California
+                      Forestline-road, Ngong, Kajiado
                     </p>
                   </div>
                 </div>
