@@ -6,18 +6,20 @@ const EducationSection = () => {
   // Education history
   const education = [
     {
-      degree: "Bachelor's in Computer Science",
-      institution: "Tech University",
-      period: "2018 - 2022",
+      degree: "Bachelor in Informatics and Computer science",
+      institution: "Strathmore University",
+      period: "Jul 2022 - Jul 2026",
       description:
-        "Focused on UI/UX design principles and full-stack development. Graduated with honors.",
+        "Computer Science student at Strathmore University with a passion for technology and innovation. Skilled in UX/UI design, web development, and full-stack solutions, I am eager to learn and apply my knowledge to create impactful digital experiences.",
+      activities: "Activities and societies: IET Strathmore",
+      skills: "Skills: Web Development · Software Development · Android Development"
     },
     {
-      degree: "UX/UI Design Certification",
-      institution: "Design Academy",
-      period: "2022 - 2023",
+      degree: "Certificate",
+      institution: "Mang'u High School",
+      period: "Feb 2018 - Mar 2022",
       description:
-        "Intensive program covering user research, wireframing, prototyping, and modern design systems.",
+        "Completed my High School education at Mang'u High school",
     },
   ];
 
@@ -53,6 +55,14 @@ const EducationSection = () => {
                   {item.institution}
                 </h4>
                 <p className="text-portfolio-gray">{item.description}</p>
+                
+                {item.activities && (
+                  <p className="text-portfolio-gray mt-2">{item.activities}</p>
+                )}
+                
+                {item.skills && (
+                  <p className="text-portfolio-gray mt-2">{item.skills}</p>
+                )}
               </div>
             ))}
           </div>
