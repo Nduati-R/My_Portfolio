@@ -37,6 +37,22 @@ const ProjectsSection = () => {
       repo: "https://github.com/Nduati-R/IPSTC-participation-registrationform",
       imageType: "dashboard",
     },
+    {
+      title: "AI News Aggregator",
+      description: "An intelligent news aggregation platform that collects and categorizes news from various sources using AI algorithms.",
+      technologies: ["Python", "React", "AI/ML"],
+      link: "https://github.com/Nduati-R/AI-News-Aggregator",
+      repo: "https://github.com/Nduati-R/AI-News-Aggregator",
+      imageType: "portfolio",
+    },
+    {
+      title: "Project Starter Template",
+      description: "A comprehensive starter template for new development projects, featuring pre-configured tools and structure.",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      link: "https://github.com/Nduati-R/Proj1_Starter",
+      repo: "https://github.com/Nduati-R/Proj1_Starter",
+      imageType: "task",
+    },
   ];
 
   return (
