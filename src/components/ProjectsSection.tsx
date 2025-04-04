@@ -22,6 +22,14 @@ const ProjectsSection = () => {
       imageType: "portfolio",
     },
     {
+      title: "Mobile Development Projects",
+      description: "A collection of mobile application development projects showcasing Android development skills and cross-platform solutions.",
+      technologies: ["Android", "Java", "Mobile UI/UX"],
+      link: "https://github.com/Nduati-R/MOBILE-DEV",
+      repo: "https://github.com/Nduati-R/MOBILE-DEV",
+      imageType: "task",
+    },
+    {
       title: "AI News Aggregator",
       description: "An intelligent news aggregation platform that collects and categorizes news from various sources using AI algorithms.",
       technologies: ["Python", "React", "AI/ML"],
